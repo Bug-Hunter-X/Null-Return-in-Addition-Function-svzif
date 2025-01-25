@@ -1,0 +1,3 @@
+# Unexpected Null Return in JavaScript Addition Function
+
+This repository demonstrates a common yet subtle error in JavaScript functions dealing with null or undefined values.  The `foo` function intends to add two numbers, but it unexpectedly returns `null` if either input is null, potentially leading to unexpected behavior in applications that don't handle null correctly. The solution shows how to improve this function using optional chaining and nullish coalescing.
